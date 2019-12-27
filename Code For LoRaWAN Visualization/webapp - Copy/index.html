@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>DTU Campus</title> <!--the title of page bar-->
+        <link rel="shortcut icon" href="pic/favicon.ico" />
+        <link rel="stylesheet" type="text/css" media="screen" href="campus.css"/>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script type="text/javascript" src="d3/d3.js"></script>
+        </head>
+
+    <body>
+      <nav class="nav">
+    <ul class="nav__wrap">
+        <li class="nav__list"><a href="#" class="nav__link">DTU Campus</a>
+        </li>
+        <li class="nav__list"><a href="main.html" target="_blanck" class="nav__link">DTU Fotonik</a>
+        </li>
+        <li class="nav__list"><a href="https://github.com/radheshyam0508/LoRaWAN-Visualization" target="_blanck" class="nav__link">GitHub</a>
+        </li>
+    </ul>
+</nav>
+
+
+<main class="content">
+
+  <div id="map">
+    <h3>View on Campus Map</h3>
+
+    <svg id="mark" width="1260" height="1500">
+        <g>
+          <image xlink:href="pic/DTU_Lyngby_Campus_kort.jpg" x="5" y="10" width="120%" height="100%"></image>
+        </g>
+    </svg>
+
+</div>
+
+
+
+      <script src="navigation.js"></script>
+</main>
+    </body>
+</html>
